@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+nav {
+  display: flex;
+  padding: 10px 0px;
+  margin-top: 20px;
+}
+.navTextContainer {
+  width: 50%;
+  margin: auto;
+}
+.navTextContainer > div {
+  width: 50%;
+  margin: auto;
+}
+.navTextContainer > div > span {
+  font-size: 30px;
+  font-weight: 900;
+}
+.r {
+  color: rgba(253, 110, 10, 1);
+}
+
+.navItemsContainer {
+  width: 50%;
+}
+.navItemsContainer > ul {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  list-style: none;
+}
+.navItemsContainer > ul > li {
+  padding: 5px 10px;
+}
+.navItemsContainer > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+.hireMe {
+  background-color: rgba(253, 110, 10, 1);
+  padding: 10px 20px;
+  border-radius: 2px;
+}
+.hireMe > span {
+  color: white;
+  font-weight: 500;
+}
+/* styles gor section hardy */
+
+.hardy {
+  width: 100%;
+  display: flex;
+  background-image: url("./images/header_bg.png");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.hardyLeft {
+  width: 50%;
+  padding: 200px 0;
+  margin: auto;
+  text-align: left;
+}
+.hardyLeft > div {
+  width: 50%;
+  margin: auto;
+}
+.hardyLeft > div > span {
+  font-weight: 100;
+}
+.hardyLeft > div > p {
+  text-align: left;
+  font-size: 50px;
+}
+.hardyRight {
+  width: 50%;
+}
+.hardyRight > img {
+  width: 50%;
+  margin-top: 44px;
+}
