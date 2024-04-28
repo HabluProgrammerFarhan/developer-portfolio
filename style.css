@@ -61,6 +61,13 @@ nav {
   background-size: cover;
   text-align: center;
 }
+.developer {
+  height: 90%;
+  margin-bottom: 20px;
+}
+.developer > img {
+  padding: 0px 30px;
+}
 .hardyLeft {
   width: 50%;
   padding: 200px 0;
@@ -77,6 +84,26 @@ nav {
 .hardyLeft > div > p {
   text-align: left;
   font-size: 50px;
+}
+#cvDownloadBtn {
+  border: 0;
+  background-color: rgba(253, 110, 10, 1);
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.downloadCvBtn {
+  text-decoration: none;
+  border: none;
+  color: aliceblue;
+}
+.contactBtn {
+  border: 1px solid rgb(230, 100, 26);
+  background: none;
+  padding: 10px 15px;
+  color: rgb(230, 100, 26);
+  border-radius: 5px;
+  cursor: pointer;
 }
 .hardyRight {
   width: 50%;
